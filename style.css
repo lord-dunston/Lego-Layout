@@ -1,0 +1,159 @@
+.col, .col:after, .col:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	max-width:960px;
+	margin: 0 auto;
+}
+
+.row {
+	width:100%;
+	margin: 1em 0 0 0;
+}
+.row:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+.col { 
+	float:left;
+	padding: 0 1% 0 1%;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.row > div:last-child {
+	margin-right:0;
+}
+
+.span-12 {
+	width: 100%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-11 {
+	width:91.66666666666667%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-10 {
+	width:83.33333333333333%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-9 {
+	width:75%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-8 {
+	width:66.66666666666667%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-7 {
+	width:58.33333333333333%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-6 {
+	width:50%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-5 {
+	width:41.66666666666667%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-4 {
+	width:33.33333333333333%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-3 {
+	width:25%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-2 {
+	width:16.66666666666667%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.span-1 {
+	width:8.333333333333333%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+/* -- 	GRID CSS STARTS HERE =================================
+ * --   SYNTAX AS FOLLOWS:
+ * --   COL-(NUMBER OF ROWS)-(HOW MANY PARTS ITS DIVIDED IN TO)
+ *===========================================================*/
+
+.col-1-2 {
+	width:50%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-3 {
+	width:33.33333333333333%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-4 {
+	width: 25%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-5 {
+	width: 20%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-6 {
+	width: 16.66666666666667%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-7 {
+	width: 14.285%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-8 {
+	width: 12.5%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-9 {
+	width: 11.1%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-10 {
+	width: 10%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-11 {
+	width: 9.090909090909091%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+.col-1-12 {
+	width: 8.333333333333333%;
+	padding: 0 0.8em 0 0.8em;
+}
+
+
+
+/* 
+ * 960 / 12 = 80   ----  column width in px
+ * ? / 960 * 100 = span width in % 
+ */
